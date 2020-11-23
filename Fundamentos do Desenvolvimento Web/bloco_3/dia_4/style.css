@@ -1,0 +1,27 @@
+header {
+  background-color: rgb(244, 179, 247);
+}
+
+nav {
+  background-color: rgb(188, 255, 255);
+}
+
+.menu-bar li {
+  display: inline;
+}
+
+main{
+  background-color: rgb(124, 124, 248);
+}
+
+article {
+  background-color: rgb(134, 224, 134);
+}
+
+.first-section {
+  background-color: rgb(255, 142, 164);
+}
+
+aside {
+  background-color: rgb(248, 192, 123);
+}
