@@ -1,0 +1,3 @@
+No terceiro dia de aula aprendi o que é Bash & Unix e aprendi os principais comandos que são usados para navegar no terminal entre um repositório e outro. criação de pastas e arquivos, exclusão dessas pastas e arquivos, como adicionar informações aos arquivos via terminal e como concatenar informações, coloca-las em ordem alfabética, verificar o número de linhas, palavras e caractérusar o PIPE (|) e (>) para adicionar informações e 
+subscrever as informações que já continham no arquivo (>>) para concatenar informações de arquivos diferentes ou acrescentar mais informações em um determinado aquivo.
+Bom, resumidamente foi isso. 

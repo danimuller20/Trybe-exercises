@@ -1,0 +1,1 @@
+Nessa outra etapa aprendi e ainda estou aprendendo sobre o Git & GitHub, vi para que eles servem, no caso para salvar versóes de um documento, código imagem ou outros arquivos, a qual salvamos as alterações feitas, no caso do git, essas alterações podem ser salvas na nossa propria máquina ou em algum servidor, e o GitHub elas são salvos na plataforma onde são visíveis. 
