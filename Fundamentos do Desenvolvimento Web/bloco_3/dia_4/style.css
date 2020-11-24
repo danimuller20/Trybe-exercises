@@ -1,17 +1,46 @@
 header {
-  background-color: rgb(244, 179, 247);
+  /*img SOURSE:https://as2.ftcdn.net/jpg/00/73/39/21/500_F_73392148_IQKrUPkIQyfWZpHj4OPRDJtpSa51Z1Ch.jpg */
+  background-image: url(Stomatopoda.png);
+  background-repeat: no-repeat;
+  background-position: 70% 8%;
+  background-size: cover;
+  padding: 100px 30px 40px
+}
+h1 {
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  margin: 0 0 20px;
+  margin-left: 30px;
+  max-width: 35%;
 }
 
 nav {
-  background-color: rgb(188, 255, 255);
+  background-color: rgb(248, 144, 248);
+  padding: 5px;
 }
 
 .menu-bar li {
   display: inline;
+  padding: 19px;
+}
+
+.menu-bar a{
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.menu-bar li:hover{
+  background-color: rgb(255, 109, 255);
 }
 
 main{
   background-color: rgb(124, 124, 248);
+}
+
+.facts{
+  text-align: center;
 }
 
 article {
