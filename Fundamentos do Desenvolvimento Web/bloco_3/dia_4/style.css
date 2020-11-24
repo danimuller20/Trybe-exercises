@@ -12,10 +12,25 @@ h1 {
   margin: 0 0 20px;
   margin-left: 30px;
   max-width: 35%;
+  font-size: 50px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+h2#facts{
+  text-align: center;
+  max-width: 100%;
+}
+h2 {
+  padding-right: 50px;
+  text-align: left;
+  float: center;
+  text-indent: 0;
+  max-width: 20%;
 }
 
 nav {
-  background-color: rgb(248, 144, 248);
+  background-color: rgb(255, 142, 164);
   padding: 5px;
 }
 
@@ -29,40 +44,66 @@ nav {
   color: white;
   font-weight: 700;
   font-size: 16px;
+  
 }
 
 .menu-bar li:hover{
-  background-color: rgb(255, 109, 255);
-}
-
-main{
-  background-color: rgb(124, 124, 248);
+  background-color: rgb(247, 121, 146);
 }
 
 .facts{
   text-align: center;
 }
 
-article {
-  background-color: rgb(134, 224, 134);
+aside {
+  background-color: rgb(248, 192, 123);
+  float: right;
+  max-width: 20%;
+  min-width: 20%;
+  padding: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 3%;
+  position: relative;
+}
+
+.source a{
+  text-decoration: none;
+  padding: 5px;
+  color: #000;
+  max-width: 20%;
+ 
+  position: relative;
+}
+
+.aside {
+  background-color: rgb(255, 142, 164);
+  padding: 10px;
 }
 
 .first-section {
+  padding: 2% 5%;
+  text-align: justify;
+  text-indent: 30px;
+}
+
+.second-section, .third-section, .fourth-section{
+  padding: 2% 5%;
+  text-align: justify;
+  text-indent: 30px;
+  max-width: 65%;
+  display: flex;
+}
+
+footer p{
   background-color: rgb(255, 142, 164);
+  padding: 50px;
+  text-align: center;
+  color: #000;
 }
 
-.second-section{
-  background-color: rgb(92, 204, 204);
-}
-
-.third-section {
-  background-color: rgb(255, 78, 172);
-}
-
-.fourth-section {
-  background-color: rgb(255, 86, 86);
-}
-
-aside {
-  background-color: rgb(248, 192, 123);
+ .section-images {
+  float: left;
+  padding-left: 50px;
+  margin: 0px 10px 10px 0;
+  max-width: 186px;
 }
