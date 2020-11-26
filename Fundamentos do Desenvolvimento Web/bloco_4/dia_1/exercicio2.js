@@ -1,3 +1,5 @@
+//Programa que retona o maiso de dois números definidos nas variaǘeis a e b.
+
 let a = 8;
 let b = 5;
 

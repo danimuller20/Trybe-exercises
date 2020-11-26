@@ -1,3 +1,5 @@
+//Programa que retona o maiso de três números definidos nas variaǘeis a, b  & c.
+
 let a = 2;
 let b = 15;
 let c = 9;

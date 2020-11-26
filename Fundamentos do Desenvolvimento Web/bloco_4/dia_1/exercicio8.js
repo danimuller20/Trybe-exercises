@@ -1,3 +1,5 @@
+//programa que retorna true na existência de números pares em alguma das variáveis.
+
 let x = 5;
 let y = 2;
 let z = 9;

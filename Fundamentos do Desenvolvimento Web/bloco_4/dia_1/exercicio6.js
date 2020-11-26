@@ -1,6 +1,8 @@
+//Programa que ao selecionar a peça de xadrez ele mostra o movimento da peça escolhida. 
+
 let pecaXadrez = 'RainHa';
 
-switch (pecaXadrez.toLowerCase()) { // toLowerCase() -. função que transforma todas as letras para minusculas
+switch (pecaXadrez.toLowerCase()) { // toLowerCase() -. função que transforma todas as letras dessa variável para minusculas
   case 'peão':
     console.log('Peão -> Se move somente para frente');
     break;
@@ -20,5 +22,5 @@ switch (pecaXadrez.toLowerCase()) { // toLowerCase() -. função que transforma 
     console.log('Rei -> Se move uma casa para qualquer direção');
     break;
   default:
-    console.log('Opa! Peça inválida!')
+    console.log('[ERRO] - Opa! Peça inválida!')
 }

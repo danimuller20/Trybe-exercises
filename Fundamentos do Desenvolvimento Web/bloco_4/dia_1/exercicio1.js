@@ -1,3 +1,5 @@
+//Nesse exercicío tem 5 programas que retornam (soma, subtração, multiplicação. divisão e módulo - resto da divsão)
+
 let a = 3;
 let b = 8;
 
