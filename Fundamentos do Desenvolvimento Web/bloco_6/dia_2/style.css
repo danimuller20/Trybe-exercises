@@ -1,3 +1,7 @@
-* {
-  margin: 20px;
+.content {
+  margin-top: 45px;
+}
+
+.btn-content {
+  margin-bottom: 65px;
 }
