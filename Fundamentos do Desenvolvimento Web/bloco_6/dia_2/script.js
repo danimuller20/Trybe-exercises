@@ -25,22 +25,10 @@ function checkEmail() {
   console.log(emails);
 }
 
-//const picker = new Pikaday({field: document.getElementById('datepicker')})
-
-// console.log(document.getElementById('datepicker').value)
-
-// var picker = new Pikaday({
-//   field: document.getElementById('datepicker'),
-//   format: 'D MMM YYYY',
-//   onSelect: function() {
-//       console.log(this.getMoment().format('Do MMMM YYYY'));
-//   }
-// });
-
-    var picker = new Pikaday({
-        field: document.getElementById('datepicker'),
-        format: 'D MMM YYYY',
-        onSelect: function() {
-            console.log(this.getMoment().format('Do MMMM YYYY'));
-        }
-    });
+  var picker = new Pikaday({
+    field: document.getElementById('datepicker'),
+    format: 'D MMM YYYY',
+    onSelect: function() {
+      console.log(this.getMoment().format('Do MMMM YYYY'));
+    }
+  });

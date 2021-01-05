@@ -9,13 +9,15 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
 </head>
 <body class="container">
-  <form action="" method="get">
+  <form action="#" class="js-form form" method="get">
     <h1 class="title is-1 label content has-text-centered">Currículo</h1>
     <fieldset class="box" id="dados-pessoais">
+
       <div class="label">
         <label class="label" for="input-nome">Nome:</label>
-        <input class="input" type="text" name="nome" id="input-nome" maxlength="40" placeholder="Digite seu nome" required>
+        <input class="input" type="text" name="nome" data-validate-field="name" id="input-nome" placeholder="Digite seu nome" required>
       </div>
+
       <div class="label">
         <label class="label" for="input-email">E-mail:</label>
         <input class="input" type="text" name="email" id="input-email" maxlength="50" placeholder="Digite seu E-mail" required>
@@ -72,6 +74,7 @@
   </form>
   <script src="node_modules/moment/moment.js"></script>
   <script src="node_modules/pikaday/pikaday.js"></script>
+  <script src="/node_modules/just-validate/dist/js/just-validate.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
