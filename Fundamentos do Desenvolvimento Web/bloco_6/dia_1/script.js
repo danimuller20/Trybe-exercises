@@ -11,3 +11,16 @@ function selectState(states) {
   }
 }
 selectState(statesOfBrazil);
+
+function checkEmail() {
+  const email = document.querySelector('#input-email').value;
+  let emails = email.split(',');
+  const regexCode = /^(\s?[^\s,]+@[^\s,]+\.[^\s,]+\s?,)*(\s?[^\s,]+@[^\s,]+\.[^\s,]+)$/;
+  for (let index = 0; index < emails.length; index += 1) {
+    if (emails[index] != '' && regexCode.test(emails[index])) {
+      return true;
+    }
+    alert('Digite um e-mail válido!')
+  }
+  console.log(emails);
+}
