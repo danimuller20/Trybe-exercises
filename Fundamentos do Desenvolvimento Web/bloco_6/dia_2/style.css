@@ -5,3 +5,21 @@
 .btn-content {
   margin-bottom: 65px;
 }
+
+/* SOURCE: https://pt.stackoverflow.com/questions/177573/retirar-as-setas-no-campo-tipo-number */
+input[type=number]::-webkit-inner-spin-button { 
+  -webkit-appearance: none;
+}
+
+input[type=number] { 
+ -moz-appearance: textfield;
+ appearance: textfield;
+}
+
+.paragraph {
+  font-size: 20px;
+  line-height: 35px;
+  padding: 15px;
+  text-align: justify;
+
+}

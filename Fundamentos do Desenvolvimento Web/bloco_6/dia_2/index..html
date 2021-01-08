@@ -9,39 +9,39 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
 </head>
 <body class="container">
-  <form action="#" class="js-form form" method="get">
+  <form action= "" class="js-form form" id="myForm" method="GET">
     <h1 class="title is-1 label content has-text-centered">Currículo</h1>
     <fieldset class="box" id="dados-pessoais">
       <div class="label">
         <label class="label" for="input-nome">Nome:</label>
-        <input class="input" type="text" name="nome" data-validate-field="name" id="input-nome" placeholder="Digite seu nome">
+        <input class="input text" type="text" name="nome" data-validate-field="name" id="input-nome" placeholder="Digite seu nome">
       </div>
       <div class="label">
         <label class="label" for="input-email">E-mail:</label>
-        <input class="input" type="text" name="email" data-validate-field="email" id="input-email" placeholder="Digite seu E-mail">
+        <input class="input text" type="text" name="email" data-validate-field="email" id="input-email" placeholder="Digite seu E-mail">
       </div>
       <div class="label" id="cpf">
         <label class="label" for="input-cpf">CPF:</label>
-        <input class="input" type="text" name="cpf" id="input-cpf" placeholder="Somente números" data-validate-field="cpf">
+        <input class="input" type="number" name="cpf" id="input-cpf" placeholder="Somente números" data-validate-field="cpf">
       </div>
       <div class="label">
         <label class="label" for="input-endereco">Endereço:</label>
-        <input class="input" type="text" name="endereço" id="input-endereco" placeholder="Ex: Rua, Serv" data-validate-field="address">
+        <input class="input text" type="text" name="endereço" id="input-endereco" placeholder="Ex: Rua, Serv" data-validate-field="address">
       </div>
       <div class="label">
         <label class="label" for="input-cidade">Cidade:</label>
-        <input class="input" type="text" name="cidade" id="input-cidade" data-validate-field="city">
+        <input class="input text" type="text" name="cidade" id="input-cidade" data-validate-field="city">
       </div>
       <div class="label"cl>
         <label class="label" for="select-estado"></label>
         <select class="input navbar is-dark" name="estados" id="select-estado"></select>
       </div>
-      <div class="label">
+      <div class="label" id="label-radio">
         <p class="label">Complemento:</p>
-        <input type="radio" name="complemento" id="casa" data-validate-field="myField">
+        <input type="radio" name="complemento" id="casa" data-validate-field="myField" value='Casa'>
         <label class="checkbox" for="casa">Casa</label>
-        <input type="radio" name="complemento" id="apartamento" data-validate-field="myField">
-        <label class="checkbox" for="apartamento">Apartamento</label>
+        <input type="radio" name="complemento" id="apartamento" data-validate-field="myField" value='Apartamento'>
+        <label class="checkbox" for="apartamento" >Apartamento</label>
       </div>
     </fieldset>
     <h2 class="title is-3 label has-text-centered">Última Experiência Profissional</h2>
@@ -53,15 +53,15 @@
       </div>
       <div class="label">
         <label class="label" for="input-cargo">Cargo:</label>
-        <input class="input" type="text" name="cargo" id="input-cargo" data-validate-field="job">
+        <input class="input text" type="text" name="cargo" id="input-cargo" data-validate-field="job">
       </div>
       <div class="label">
         <label class="label" for="input-descricao">Descrição do cargo:</label>
-        <input class="input" type="text" name="descrição" id="input-descricao"  data-validate-field="description">
+        <input class="input text" type="text" name="descrição" id="input-descricao"  data-validate-field="description">
       </div>
       <div class="label">
         <label class="label" for="datepicker">Data de início:</label>
-        <input class="input" type="text" name="data-inicio" id="datepicker" required placeholder="9 Oct 2014" data-validate-field="date">
+        <input class="input text" type="text" name="data-inicio" id="datepicker" required placeholder="9 Oct 2014" data-validate-field="date">
       </div>  
     </fieldset>
     <div class="label">
@@ -70,6 +70,10 @@
       <br>
     </div>
   </form>
+  <section>
+    <div id="result-data" class="paragraph">
+    </div>
+  </section>
   <script src="node_modules/moment/moment.js"></script>
   <script src="node_modules/pikaday/pikaday.js"></script>
   <script src="/node_modules/just-validate/dist/js/just-validate.js"></script>
