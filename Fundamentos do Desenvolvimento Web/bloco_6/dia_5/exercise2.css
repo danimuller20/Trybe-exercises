@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.header-container p {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: brown;
+  color: aliceblue;
+}
+
+.nav-list {
+  display: flex;
+  padding: 10px 25px;
+  background-color: red;
+}
+
+.nav-container ul li {
+  list-style-type: none;
+  padding: 10px;
+}
