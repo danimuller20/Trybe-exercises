@@ -173,7 +173,8 @@ function getRadioInputValue() {
   }
 }
 
-function appendData() {
+function appendData(event) {
+  event.preventDefault()
   const div = document.querySelector('#result-data');
   while (div.hasChildNodes()) {
     div.removeChild(div.lastChild);

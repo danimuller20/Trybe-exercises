@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercice 3.2</title>
+</head>
+<body>
+  <div class="div">
+    <button class="button-count">Clique em mim</button>
+  </div>
+  <script>
+    function countAllClicks() {
+      const button = document.querySelector('.button-count');
+      const div = document.querySelector('.div');
+      const paragraph = document.createElement('p');
+      div.appendChild(paragraph);
+      let clickCount = 0;
+      button.addEventListener('click', event => {
+        if (event.target) {
+          clickCount += 1;
+        }
+        paragraph.innerHTML = clickCount;
+      });
+    }
+    countAllClicks();
+  
+  </script>
+</body>
+</html>
