@@ -63,19 +63,10 @@ const books = [
   },
 ];
 
-const expectedResult = {
-  author: {
-    birthYear: 1948,
-    name: 'George R. R. Martin'
-  },
-  genre: 'Fantasia',
-  id: 1,
-  name: 'As Crônicas de Gelo e Fogo',
-  releaseYear: 1991
-};
+const expectedResult = 'O Senhor dos Anéis';
 
-function getNamedBook(book) {
-  return book.find(size => size.name.length === 26);
+function authorWith3DotsOnName() {
+  return books.find(information => information.author.name === 'J. R. R. Tolkien').name
 }
 
-assert.deepStrictEqual(getNamedBook(books), expectedResult);
+assert.deepStrictEqual(authorWith3DotsOnName(), expectedResult);

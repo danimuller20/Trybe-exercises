@@ -63,19 +63,17 @@ const books = [
   },
 ];
 
-const expectedResult = {
-  author: {
-    birthYear: 1948,
-    name: 'George R. R. Martin'
-  },
-  genre: 'Fantasia',
-  id: 1,
-  name: 'As Crônicas de Gelo e Fogo',
-  releaseYear: 1991
-};
+const expectedResult = [
+  'Frank Herbert',
+  'George R. R. Martin',
+  'Isaac Asimov',
+  'J. R. R. Tolkien'
+]
 
-function getNamedBook(book) {
-  return book.find(size => size.name.length === 26);
+function fantasyOrScienceFictionAuthors() {
+  return books.filter((information) => 
+  information.genre === 'Fantasia' || information.genre === 'Ficção Científica'
+  ).map((informayions) => informayions.author.name).sort();
 }
 
-assert.deepStrictEqual(getNamedBook(books), expectedResult);
+assert.deepStrictEqual(fantasyOrScienceFictionAuthors(), expectedResult);
