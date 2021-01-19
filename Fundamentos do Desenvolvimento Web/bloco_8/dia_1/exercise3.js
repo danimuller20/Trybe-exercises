@@ -74,8 +74,8 @@ const expectedResult = {
   releaseYear: 1991
 };
 
-function getNamedBook() {
+function getNamedBook(book) {
   return book.find(size => size.name.length === 26);
 }
 
-assert.deepStrictEqual(getNamedBook(), expectedResult);
+assert.deepStrictEqual(getNamedBook(books), expectedResult);
