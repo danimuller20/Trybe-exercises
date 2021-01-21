@@ -1,3 +1,5 @@
+const assert = require('assert');
+
 const books = [
   {
     id: 1,
@@ -32,7 +34,6 @@ const books = [
   {
     id: 4,
     name: 'Duna',
-    genre: 'Ficção Científica',
     author: {
       name: 'Frank Herbert',
       birthYear: 1920,
@@ -61,8 +62,24 @@ const books = [
   },
 ];
 
-const expectedResult = 43;
+const expectedResult = {
+  author: {
+    birthYear: 1948,
+    name: 'George R. R. Martin'
+  },
+  genre: 'Fantasia',
+  id: 1,
+  name: 'As Crônicas de Gelo e Fogo',
+  releaseYear: 1991
+};
 
-function averageAge() {
-  // escreva seu código aqui
+function longestNamedBook() {
+  return books.reduce((previousValue, currentvalue) => {
+    if (currentvalue.name.length > previousValue.name.length) {
+      return currentvalue;
+    }
+    return previousValue;
+  });  
 }
+
+assert.deepStrictEqual(longestNamedBook(), expectedResult);
