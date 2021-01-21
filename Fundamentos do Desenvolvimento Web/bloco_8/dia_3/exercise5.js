@@ -7,8 +7,6 @@ const names = [
   'Abeladerco', 'Adieidy',  'Alarucha',
 ];
 
-
-
 function containsA() {
   return names.reduce((accumulateValue, currentValue) =>
   accumulateValue + currentValue.split('').reduce((accumulator, current) => {
@@ -16,7 +14,7 @@ function containsA() {
       return accumulator + 1;
     }
     return accumulator;
-  }, 0), 0);
+  }, 0), 0); 
 }
 
 assert.deepStrictEqual(containsA(), 20);
