@@ -1,11 +1,45 @@
-const rectangleArea = (width, height) => width * height
+const people = [
+    {
+        name: "Nicole",
+        bornIn: 1992,
+        nationality: "Australian"
+    },
+    {
+        name: "Harry",
+        bornIn: 2008,
+        nationality: "Australian"
+    },
+    {
+        name: "Toby",
+        bornIn: 1901,
+        nationality: "Australian"
+    },
+    {
+        name: "Frida",
+        bornIn: 1960,
+        nationality: "Dannish"
+    },
+    {
+        name: "Fernando",
+        bornIn: 2001,
+        nationality: "Brazilian"
+    }
+]
 
-const rectangle1 = [1, 2]
-const rectangle2 = [3, 5]
-const rectangle3 = [6, 9]
-const rectangles = [rectangle1, rectangle2, rectangle3]
 
-for(rectangle of rectangles) {
-  console.log(...rectangle)
-  console.log(rectangleArea(...rectangle)) // altere a chamada da funcao rectangleArea
+for (peoples of people) {
+  const {bornIn, nationality} = peoples
+  if(bornIn > 1900 && bornIn < 1999 && nationality === 'Australian') {
+    console.log(peoples);
+  }
 }
+// // escreva filterPeople abaixo
+// const borndYear = (year) => year > 1901 && year < 1999;
+// const bornLocal = (local) => local === 'Australian';
+
+// const filteredPeople = (people) => people.filter(
+//   ({bornIn, nationality}) => borndYear(bornIn) && bornLocal(nationality ? people: false)
+// )
+
+// console.log(filteredPeople(people));
+
