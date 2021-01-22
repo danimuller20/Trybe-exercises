@@ -1,5 +1,5 @@
 const assert = require('assert');
-const { relative } = require('path');
+
 
 const people = [
     {
