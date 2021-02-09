@@ -11,6 +11,7 @@ test('toUpperCase para toLowercase', () => {
   expect(stringFunction.toUpperCaseString('DaniElA')).toEqual('daniela');
   expect(stringFunction.toUpperCaseString).toHaveBeenCalled();
   expect(stringFunction.toUpperCaseString).toHaveBeenCalledTimes(1);
+
 });
 
 test('Da primeira letra para a última letra da string', () => {
