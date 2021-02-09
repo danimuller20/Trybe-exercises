@@ -95,7 +95,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 11: Introdução - React
 
-- [ ] 11-1: _Introdução Front-End_
+- [] 11-1: _Introdução Front-End_
 - [ ] 11-1: _Introdução - React_
 - [ ] 11-1: _'Hello, world!' no React!_
 - [ ] 11-2: _Componentes React_
