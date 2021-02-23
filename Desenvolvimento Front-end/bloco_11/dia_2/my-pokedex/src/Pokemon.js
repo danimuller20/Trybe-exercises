@@ -8,7 +8,9 @@ class Pokemon extends Component {
     return (
       <div className="poke-container">
         <ul className="poke-list">
-        <li>{name}</li> <li>{type}</li> <li> Avearge Weight: {averageWeight.value} {averageWeight.measurementUnit}</li>
+        <li>{name}</li> 
+        <li>{type}</li> 
+        <li> Avearge Weight: {averageWeight.value} {averageWeight.measurementUnit}</li>
         </ul>
         <img className="poke-image" src={image}/>
       </div>
