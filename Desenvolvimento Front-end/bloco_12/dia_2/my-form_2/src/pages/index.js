@@ -85,10 +85,10 @@ export default class Home extends Component {
   render() {
     return (
       <div className={styles.container}>
+        <fieldset className={styles.container2}>
         <Head>
           <title>Forms 2.0</title>
         </Head>
-        <fieldset className={styles.container2}>
           <Name value={this.state.name} handleEvent={this.handleEvent} />
           <Email value={this.state.email} handleEvent={this.handleEvent} />
           <CPF value={this.state.CPF} handleEvent={this.handleEvent} />
