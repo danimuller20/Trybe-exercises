@@ -1,0 +1,19 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+}
+
+.container2, .container {
+  padding:2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
