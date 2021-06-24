@@ -9,9 +9,7 @@ describe('Testa a função "createText', () => {
   });
 
   after(() => {
-    sinon.stub(() => {
-      fs.writeFileSync.restore();
-    });
+    fs.writeFileSync.restore();
   });
 
   describe('Após concluir a escrita do arquivo', () => {

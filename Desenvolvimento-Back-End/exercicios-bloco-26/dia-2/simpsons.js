@@ -7,7 +7,7 @@ async function simpsonsIdAndName() {
   const simpsons = await fs
   .readFile(file, 'utf8')
     .then((data) => JSON.parse(data))
-    simpsons.map((simpson) => console.log(simpson.id, simpson.name));
+    simpsons.map((simpson) => console.log(simpson.id, '-', simpson.name));
 }
 simpsonsIdAndName();
 
