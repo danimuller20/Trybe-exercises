@@ -180,66 +180,66 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 24: MongoDB: Updates Simples e Complexos
 
-- [ ] 24-1: _Updates Simples_
-- [ ] 24-2: _Updates Complexos - Arrays - Parte 1_
-- [ ] 24-3: _Updates Complexos - Arrays - Parte 2_
-- [ ] 24-4: _[Projeto - Commerce]()_
+- [✅] 24-1: _Updates Simples_
+- [:white_check_mark:] 24-2: _Updates Complexos - Arrays - Parte 1_
+- [:white_check_mark:] 24-3: _Updates Complexos - Arrays - Parte 2_
+- [:white_check_mark:] 24-4: _[Projeto - Commerce]()_
 
 ##### Bloco 25: MongoDB: Aggregation Framework
 
-- [ ] 25-1: _Aggregation Framework - Part 1_
-- [ ] 25-2: _Aggregation Framework - Part 2_
-- [ ] 25-3: _[Projeto - Aggregations]()_
+- [:white_check_mark:] 25-1: _Aggregation Framework - Part 1_
+- [:white_check_mark:] 25-2: _Aggregation Framework - Part 2_
+- [:white_check_mark:] 25-3: _[Projeto - Aggregations]()_
 
 ##### Bloco 26: Introdução ao desenvolvimento Web com NodeJS
 
-- [ ] 26-1: _NodeJS - Introdução_
-- [ ] 26-2: _NodeJS - Fluxo AssÃíncrono_
-- [ ] 26-3: _NodeJS - Arquitetura_
-- [ ] 26-4: _Express: HTTP com Node.js_
-- [ ] 26-5: _Praticando Express_
-- [ ] 26-6: _[Projeto - Crush Manager]()_
+- :white_check_mark:] 26-1: _NodeJS - Introdução_
+- [:white_check_mark:] 26-2: _NodeJS - Fluxo AssÃíncrono_
+- [:white_check_mark:] 26-3: _NodeJS - Arquitetura_
+- [:white_check_mark:] 26-4: _Express: HTTP com Node.js_
+- [:white_check_mark:] 26-5: _Praticando Express_
+- [:white_check_mark:] 26-6: _[Projeto - Crush Manager]()_
 
 ##### Bloco 27: NodeJS: Camada de Serviço e Arquitetura Rest e Restful
 
-- [ ] 27-1: _Arquitetura de Software - Camada de Model_
-- [ ] 27-2: _Arquitetura de Software - Camada de Controller e Service_
-- [ ] 27-3: _Arquitetura Web - Rest e Restful_
-- [ ] 27-4: _[Projeto - Store Manager]()_
+- [:white_check_mark:] 27-1: _Arquitetura de Software - Camada de Model_
+- [:white_check_mark:white_check_mark:white_check_mark:] 27-2: _Arquitetura de Software - Camada de Controller e Service_
+- [:white_check_mark:white_check_mark:white_check_mark:] 27-3: _Arquitetura Web - Rest e Restful_
+- [:white_check_mark:white_check_mark:white_check_mark:] 27-4: _[Projeto - Store Manager]()_
 
 ##### Bloco 28: Autenticação e Upload de Arquivos
 
-- [ ] 28-1: _NodeJS - JWT - (JSON Web Token)_
-- [ ] 28-2: _NodeJS - Upload de arquivos com Multer_
-- [ ] 28-3: _[Projeto - Store Coockmaster V2]()_
+- [:white_check_mark:white_check_mark:] 28-1: _NodeJS - JWT - (JSON Web Token)_
+- [:white_check_mark:white_check_mark:] 28-2: _NodeJS - Upload de arquivos com Multer_
+- [:white_check_mark:white_check_mark:] 28-3: _[Projeto - Store Coockmaster V2]()_
 
 ##### Bloco 29: Deployment
 
-- [ ] 29-1: _Introdução - Deploy com Heroku_
-- [ ] 29-2: _Deploy - Gerenciadores de Processos_
-- [ ] 29-3: _[Projeto - Stranger Things]()_
+- [:white_check_mark:white_check_mark:] 29-1: _Introdução - Deploy com Heroku_
+- [:white_check_mark:white_check_mark:] 29-2: _Deploy - Gerenciadores de Processos_
+- [:white_check_mark:white_check_mark:] 29-3: _[Projeto - Stranger Things]()_
 
 ##### Bloco 30: Projeto Trybeer
 
-- [ ] 30-1: _[Projeto - Trybeer]()_
+- [:white_check_mark:] 30-1: _[Projeto - Trybeer]()_
 
 ##### Bloco 31: Arquitetura: SOLID e ORM
 
-- [ ] 31-1: _Arquitetura - Princípios SOLID_
-- [ ] 31-2: _ORM - Interface da aplicação com o banco de dados_
-- [ ] 31-3: _Arquitetura de Software - DDD_
-- [ ] 31-4: _Boas práticas na escrita de testes_
-- [ ] 31-3: _[Projeto - API de Blogs]()_
+- [:white_check_mark:] 31-1: _Arquitetura - Princípios SOLID_
+- [:white_check_mark:] 31-2: _ORM - Interface da aplicação com o banco de dados_
+- [:white_check_mark:] 31-3: _Arquitetura de Software - DDD_
+- [:white_check_mark:] 31-4: _Boas práticas na escrita de testes_
+- [:white_check_mark:] 31-3: _[Projeto - API de Blogs]()_
 
 ##### Bloco 32: Sockets
 
-- [ ] 32-1: _Sockets - TCP/UDP & NET_
-- [ ] 32-2: _Sockets - Socket.io_
-- [ ] 32-3: _[Projeto - Webchat]()_
+- [:white_check_mark:] 32-1: _Sockets - TCP/UDP & NET_
+- [:white_check_mark:] 32-2: _Sockets - Socket.io_
+- [:white_check_mark:] 32-3: _[Projeto - Webchat]()_
 
 ##### Bloco 33: Projeto
 
-- [ ] 33-1: _[Projeto - Trybeer V2]()_
+- [:white_check_mark:] 33-1: _[Projeto - Trybeer V2]()_
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
