@@ -105,13 +105,13 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [:white_check_mark:] 12-1: _Components com estado e eventos_
 - [:white_check_mark:] 12-2: _Formulários no React_
-- [:white_check_mark:] 12-3: _[Projeto - Movie Cards Library Stateful]()_
+- [:white_check_mark:] 12-3: _[Projeto - Movie Cards Library Stateful](https://github.com/danimuller20/project-movie-cards-library-stateful)_
 
 ##### Bloco 13: Ciclo de Vida de Componentes e React Router
 
 - [:white_check_mark:] 13-1: _Ciclo de vida de compnentes_
 - [:white_check_mark:] 13-2: _React Router_
-- [:white_check_mark:] 13-3: _[Projeto - Movie Cards Library CRUD]()_
+- [:white_check_mark:] 13-3: _[Projeto - Movie Cards Library CRUD](https://github.com/danimuller20/project-movie-card-library-crud)_
 
 ##### Bloco 14: Metodologias Ágeis
 
