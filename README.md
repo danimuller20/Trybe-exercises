@@ -82,7 +82,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [:white_check_mark:] 9-1: _JavaScript Assíncrono e Callbacks_
 - [:white_check_mark:] 9-2: _JavaScript Promises_
-- [:white_check_mark:] 9-3: _[Projeto - Carrinho de Compras]()_
+- [:white_check_mark:] 9-3: _[Projeto - Carrinho de Compras](https://github.com/danimuller20/project-shopping-cart)_
 
 ##### Bloco 10: Jest
 
