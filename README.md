@@ -239,7 +239,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 33: Projeto
 
-- [:white_check_mark:] 33-1: _[Projeto - Trybeer V2]()_
+- [:white_check_mark:] 33-1: _[Projeto - Delivery-app](https://github.com/danimuller20/project-delivery-app)_
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
