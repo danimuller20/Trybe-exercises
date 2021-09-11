@@ -38,7 +38,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [:white_check_mark:] 4-2: _JavaScript - Array e loop For_
 - [:white_check_mark:] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [:white_check_mark:] 4-4: _JavaScript - Objetos e funções_
-- [:white_check_mark:] 4-5: _[Projeto - Playground Functions]()_
+- [:white_check_mark:] 4-5: _[Projeto - Playground Functions](https://github.com/danimuller20/project-playground-functions)_
 
 ##### Bloco 5: JavaScript: DOM, Eventos e Web Storage
 
