@@ -89,7 +89,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [:white_check_mark:] 10-1: _Primeiros passos no Jest_
 - [:white_check_mark:] 10-2: _Jest - Testes Assíncronos_
 - [:white_check_mark:] 10-3: _Jest - Simulando comportamentos_
-- [:white_check_mark:] 10-4: _[Projeto - Jest Assí­ncrono e Mocking](https://github.com/tryber/sd-09-project-jest/pull/73)_
+- [:white_check_mark:] 10-4: _[Projeto - Jest Assí­ncrono e Mocking](https://github.com/danimuller20/project-jest)_
 
 ## Desenvolvimento Front-end :white_check_mark:
 
@@ -194,24 +194,26 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 26: Introdução ao desenvolvimento Web com NodeJS
 
 - :white_check_mark:] 26-1: _NodeJS - Introdução_
-- [:white_check_mark:] 26-2: _NodeJS - Fluxo AssÃíncrono_
-- [:white_check_mark:] 26-3: _NodeJS - Arquitetura_
+- [:white_check_mark:] 26-2: _NodeJS - Fluxo Assíncrono_
+- [:white_check_mark:] 26-3: _Testes com NodeJS_
 - [:white_check_mark:] 26-4: _Express: HTTP com Node.js_
-- [:white_check_mark:] 26-5: _Praticando Express_
-- [:white_check_mark:] 26-6: _[Projeto - Crush Manager]()_
+- [:white_check_mark:] 26-5: _Express: Middlewares_
+- [:white_check_mark:] 26-6: _[Projeto - Talker Manager]()_
 
 ##### Bloco 27: NodeJS: Camada de Serviço e Arquitetura Rest e Restful
 
 - [:white_check_mark:] 27-1: _Arquitetura de Software - Camada de Model_
 - [:white_check_mark:white_check_mark:white_check_mark:] 27-2: _Arquitetura de Software - Camada de Controller e Service_
 - [:white_check_mark:white_check_mark:white_check_mark:] 27-3: _Arquitetura Web - Rest e Restful_
-- [:white_check_mark:white_check_mark:white_check_mark:] 27-4: _[Projeto - Store Manager]()_
+- [:white_check_mark:white_check_mark:white_check_mark:] 27-4: _Arquitetura de Software - Testando as Camadas_
+- [:white_check_mark:white_check_mark:white_check_mark:] 27-5: _[Projeto - Store Manager]()_
 
 ##### Bloco 28: Autenticação e Upload de Arquivos
 
 - [:white_check_mark:white_check_mark:] 28-1: _NodeJS - JWT - (JSON Web Token)_
 - [:white_check_mark:white_check_mark:] 28-2: _NodeJS - Upload de arquivos com Multer_
-- [:white_check_mark:white_check_mark:] 28-3: _[Projeto - Store Coockmaster V2]()_
+- [:white_check_mark:white_check_mark:] 28-3: _NodeJS - Testando APIs com Testes de Integração_
+- [:white_check_mark:white_check_mark:] 28-4: _[Projeto - Cookmaster]()_
 
 ##### Bloco 29: Deployment
 
@@ -219,70 +221,66 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [:white_check_mark:white_check_mark:] 29-2: _Deploy - Gerenciadores de Processos_
 - [:white_check_mark:white_check_mark:] 29-3: _[Projeto - Stranger Things]()_
 
-##### Bloco 30: Projeto Trybeer
+##### Bloco 30: Arquitetura: SOLID e ORM
 
-- [:white_check_mark:] 30-1: _[Projeto - Trybeer]()_
+- [:white_check_mark:] 30-1: _Arquitetura - Princípios SOLID_
+- [:white_check_mark:] 30-2: _ORM - Interface da aplicação com o banco de dados_
+- [:white_check_mark:] 30-3: _ORM - Associations_
+- [:white_check_mark:] 30-4: _[Projeto - API de Blogs_
 
-##### Bloco 31: Arquitetura: SOLID e ORM
+##### Bloco 31: Sockets
 
-- [:white_check_mark:] 31-1: _Arquitetura - Princípios SOLID_
-- [:white_check_mark:] 31-2: _ORM - Interface da aplicação com o banco de dados_
-- [:white_check_mark:] 31-3: _Arquitetura de Software - DDD_
-- [:white_check_mark:] 31-4: _Boas práticas na escrita de testes_
-- [:white_check_mark:] 31-3: _[Projeto - API de Blogs]()_
+- [:white_check_mark:] 31-1: _Arquitetura de Software - Camada de View_
+- [:white_check_mark:] 31-2: _Sockets - TCP/UDP & NET_
+- [:white_check_mark:] 31-3: _Sockets - Socket.io_
+- [:white_check_mark:] 31-4: _Sockets - Praticando Socket.io_
+- [:white_check_mark:] 31-3: _[Projeto - Webchat]()_
 
-##### Bloco 32: Sockets
-
-- [:white_check_mark:] 32-1: _Sockets - TCP/UDP & NET_
-- [:white_check_mark:] 32-2: _Sockets - Socket.io_
-- [:white_check_mark:] 32-3: _[Projeto - Webchat]()_
-
-##### Bloco 33: Projeto
-
-- [:white_check_mark:] 33-1: _[Projeto - Delivery-app](https://github.com/danimuller20/project-delivery-app)_
+##### Bloco 32: Projeto - App de Delivery
+- [:white_check_mark:] 33-1: _[Projeto - App de Delivery](https://github.com/danimuller20/project-delivery-app)_
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
-##### Bloco 34: Arquitetura de Computadores e Redes
+##### Bloco 33: Introdução à Python
 
-- [ ] 34-1: _Arquitetura de Computadores_
-- [ ] 34-2: _Arquitetura de redes_
-- [ ] 34-3: _Redes de computadores, ferramentas e segurança_
-- [ ] 34-4: _[Projeto - Explorando os protocolos]()_
+- [ ] 33-1: _Introdução - Ciência da Computação_
+- [ ] 33-1: _Aprendendo Python_
+- [ ] 33-2: _Entrada e Saída de Dados_
+- [ ] 33-3: _Testes_
+- [ ] 33-4: _[Projeto - Job Insights]()_
 
-##### Bloco 35: Introdução à Python e Raspagem de Dados da Web
+##### Bloco 34: Programação Orientada a Objetos e Padrões de Projeto
 
-- [ ] 35-1: _Aprendendo Python_
-- [ ] 35-2: _Entrada e Saí­da de dados_
+- [ ] 34-1: _Introdução à programação orientada a objetos_
+- [ ] 34-2: _Herança, Composição e Interfacess_
+- [ ] 34-3: _Padrões de projeto_
+- [ ] 34-4: _[Projeto - Relatórios de Estoque]()_
+
+##### Bloco 35: Redes e Raspagem de Dados
+
+- [ ] 35-1: _Arquitetura de redes_
+- [ ] 35-2: _Redes de computadores, ferramentas e segurança_
 - [ ] 35-3: _Raspagem de Dados_
-- [ ] 36-4: _Testes e Exceções_
-- [ ] 35-5: _[Projeto - Tech news]()_
+- [ ] 35-4: _[Projeto - Tech news]()_
 
-##### Bloco 36: Programação Orientada a Objetos e Padrões de Projeto
+##### Bloco 36: Algoritmos
 
-- [ ] 36-1: _Introdução à programação orientada a objetos_
-- [ ] 36-2: _Programação orientada a objetos na prática_
-- [ ] 36-3: _Padrões de projeto_
-- [ ] 36-4: _[Projeto - Relatórios de Estoque]()_
+- [ ] 36-1: _Complexidade de Algoritmos_
+- [ ] 36-2: _Recursividade e Estratégias para solução de problemas_
+- [ ] 36-3: _Algoritmos de ordenação e busca_
+- [ ] 36-4: _[Projeto - Algoritmos]()_
 
-##### Bloco 37: Algoritmos e Estrutura de Dados
+##### Bloco 37: Estrutura de Dados I: Arrays, Hashmaps e Sets
 
-- [ ] 37-1: _Estrutura de Dados I - Arrays_
-- [ ] 37-2: _Estrutura de Dados I - Complexidade de Algoritmos_
-- [ ] 37-3: _Recursividade e Estratégias para solução de problemas_
-- [ ] 37-4: _Algoritmos de ordenação e busca_
-- [ ] 37-5: _[Projeto - Algoritmos]()_
+- [ ] 37-1: _Arquitetura de Computadores_
+- [ ] 37-2: _Arrays_
+- [ ] 37-3: _Hashmap e Dict_
+- [ ] 37-4: _Set_
+- [ ] 37-5: _[Projeto - Restaurant Orders]()_
 
-##### Bloco 38: Estrutura de Dados: Hash e Set
+##### Bloco 38: Estrutura de Dados II: Listas, Filas e Pilhas
 
-- [ ] 37-1: _Estrutura de Dados II - Hash maps & Dict_
-- [ ] 37-2: _Estrutura de Dados II - Set_
-- [ ] 37-3: _[Projeto - Restaurant Orders]()_
-
-##### Bloco 39: Estrutura de Dados: Pilhas, Filas e Listas
-
-- [ ] 39-1: _Estrutura de Dados III - Pilhas_
-- [ ] 39-2: _Estrutura de Dados III - Deque_
-- [ ] 39-3: _Estrutura de Dados III - Nó & Listas ligadas_
-- [ ] 39-4: _Estrutura de Dados III - Listas duplamente ligadas_
-- [ ] 39-5: _[Projeto - TING - Trybe Is Not Google]()_
+- [ ] 39-1: _Nó e Listas Encadeadas_
+- [ ] 39-2: _Deque_
+- [ ] 39-3: _Pilhas_
+- [ ] 39-4: _[Projeto - TING - Trybe Is Not Google]()_
