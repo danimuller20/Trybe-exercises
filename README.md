@@ -237,7 +237,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [:white_check_mark:] 31-3: _[Projeto - Webchat]()_
 
 ##### Bloco 32: Projeto - App de Delivery
-- [:white_check_mark:] 33-1: _[Projeto - App de Delivery](https://github.com/danimuller20/project-delivery-app)_
+- [:white_check_mark:] 33-1: _[Projeto - App de Delivery](https://recipe-app-trybe.herokuapp.com/comidas)_
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
