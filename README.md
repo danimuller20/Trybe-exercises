@@ -146,7 +146,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [:white_check_mark:] 18-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
 ##### Bloco 19: Projeto Final de Front-end
 
-- [:white_check_mark:] 19-1: _[Projeto - App de Receitas]()_
+- [:white_check_mark:] 19-1: _[Projeto - App de Receitas](https://recipe-app-trybe.herokuapp.com/comidas)_
 
 ## Desenvolvimento Back-end :white_check_mark:
 
@@ -237,7 +237,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [:white_check_mark:] 31-3: _[Projeto - Webchat]()_
 
 ##### Bloco 32: Projeto - App de Delivery
-- [:white_check_mark:] 33-1: _[Projeto - App de Delivery](https://recipe-app-trybe.herokuapp.com/comidas)_
+- [:white_check_mark:] 33-1: _[Projeto - App de Delivery]()_
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
